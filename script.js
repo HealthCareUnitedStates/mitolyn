@@ -37,7 +37,7 @@ filer.forEach((f) => {
 
  // Disable Right Click
  document.oncontextmenu = () => {
-    alert("Hahaha...😂__DEVELOPER IS KISHAN__😎")
+    alert("Love curiosity! But for official info, check out our website.")
     return false;
 }
 
@@ -52,7 +52,7 @@ document.addEventListener("keydown", function (e) {
         e.key === "F12"
     ) {
         e.preventDefault();
-        alert("Not again.....!😂");
+        alert("Love curiosity! But for official info, check out our website.");
     }
 });
 
