@@ -270,7 +270,7 @@ li {
 .button {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Align content inside left */
   padding: 1rem 1.5rem;
   background: linear-gradient(135deg, #cc0000, #ff6666);
   border-radius: 12px;
@@ -283,7 +283,10 @@ li {
   position: relative;
   overflow: hidden;
   gap: 0.75rem;
+  margin: 20px 0; /* space above and below */
+  text-align: left;
 }
+
 
 .button .text_button {
   z-index: 1;
