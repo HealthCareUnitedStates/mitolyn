@@ -137,10 +137,10 @@ body {
   align-items: left;
   justify-content: left;
 }
-img {
+/* img {
   height : 400px;
   width : 600px;
-}
+} */
 #ing {
   height : 900px;
   width : 1200px
